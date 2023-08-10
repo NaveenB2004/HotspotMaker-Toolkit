@@ -25,7 +25,7 @@ public class MainUI extends javax.swing.JFrame {
     public MainUI() {
         initComponents();
         this.setIconImage(Toolkit.getDefaultToolkit().getImage(
-                getClass().getResource("/Imgs/ico_tools_16px_dark.png")));
+                getClass().getResource("/imgs/ico_tools_16px_dark.png")));
         startup();
     }
 
