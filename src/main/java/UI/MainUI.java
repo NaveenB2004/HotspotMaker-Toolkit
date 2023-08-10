@@ -273,23 +273,27 @@ public class MainUI extends javax.swing.JFrame {
         StringSelection stringSelection = new StringSelection(concopy);
         Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
         clipboard.setContents(stringSelection, null);
-        jButton7.setIcon(new ImageIcon(getClass().getResource("/Imgs/ico_right_16px_dark.png")));
+        jButton7.setIcon(new ImageIcon(
+                getClass().getResource("/imgs/ico_right_16px_dark.png")));
     }//GEN-LAST:event_jButton7ActionPerformed
 
     private void jButton7MouseMoved(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButton7MouseMoved
         // TODO add your handling code here:
-        jButton7.setIcon(new ImageIcon(getClass().getResource("/Imgs/ico_copy_16px_dark.png")));
+        jButton7.setIcon(new ImageIcon(
+                getClass().getResource("/imgs/ico_copy_16px_dark.png")));
     }//GEN-LAST:event_jButton7MouseMoved
 
     private void jButton6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton6ActionPerformed
         // TODO add your handling code here:
         console.setText("");
-        jButton6.setIcon(new ImageIcon(getClass().getResource("/Imgs/ico_right_16px_dark.png")));
+        jButton6.setIcon(new ImageIcon(
+                getClass().getResource("/imgs/ico_right_16px_dark.png")));
     }//GEN-LAST:event_jButton6ActionPerformed
 
     private void jButton6MouseMoved(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButton6MouseMoved
         // TODO add your handling code here:
-        jButton6.setIcon(new ImageIcon(getClass().getResource("/Imgs/ico_clear_16px_dark.png")));
+        jButton6.setIcon(new ImageIcon(
+                getClass().getResource("/imgs/ico_clear_16px_dark.png")));
     }//GEN-LAST:event_jButton6MouseMoved
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
