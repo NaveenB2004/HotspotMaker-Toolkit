@@ -17,7 +17,7 @@ import javax.swing.UnsupportedLookAndFeelException;
  */
 public class HotspotMakerToolkit {
 
-    public static String version = "0.1";
+    public static String version = "0.2";
     
     public static void main(String[] args) {
         try {
